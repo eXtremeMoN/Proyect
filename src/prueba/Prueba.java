@@ -10,7 +10,8 @@ public class Prueba {
         String str = "Hólá que hace ";
         String[] cadena=new String[30];
         int x=0;
-
+            
+        //Test Danco chupalooo:
         str = Normalizer.normalize(str, Normalizer.Form.NFD);
         str = str.replaceAll("[^\\p{ASCII}(N\u0303)(n\u0303)(\u00A1)(\u00BF)(\u00B0)(U\u0308)(u\u0308)]", "");
 
